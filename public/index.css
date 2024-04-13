@@ -35,7 +35,7 @@ body {
   
   /* Style the button */
   button {
-    background-color: #d1e7f5; /* Lighter blue */
+    background-color: #12518d; /* Lighter blue */
     color: #fff; /* White text */
     border: none;
     padding: 10px 20px;
@@ -45,7 +45,7 @@ body {
   }
   
   button:hover {
-    background-color: #2c5484; /* Slightly darker blue on hover */
+    background-color: #60a7e8; /* Slightly darker blue on hover */
   }
   
   /* Style the link */
@@ -56,5 +56,5 @@ body {
   }
   
   a:hover {
-    color: #7daccf; /* Lighter blue on hover */
+    color: #60a7e8; /* Lighter blue on hover */
   }
