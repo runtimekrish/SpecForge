@@ -8,36 +8,20 @@ body {
     min-height: 100vh;  /* Set minimum height for viewport */
     background-color: #1a2a43; /* Lightest blue */
   }
-  
+
   .logo {
     position: absolute;
-    top: 50px;
-    left: 40%;
-    width: 20%;
-    height: 20%;
+    top: 80px;
+    left: 45%;
+    width: 100%;
+    max-height: 20px;
   }
-  /* Style the signin form container */
-  .form-container {
-    background-color: #b3d7ff; /* Medium blue */
-    padding: 30px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a slight shadow */
-  }
-  
+
   /* Style the heading */
   h2 {
     text-align: center;
     margin-bottom: 20px;
     color: #333; /* Darkest blue for text */
-  }
-  
-  /* Style the input fields */
-  input[type="text"], input[type="password"]  {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
   }
   
   /* Style the button */
