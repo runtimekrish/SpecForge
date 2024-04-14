@@ -17,35 +17,28 @@ body {
     height: 20%;
   }
 
-  /* Style the heading */
-  h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333; /* Darkest blue for text */
+  p {
+    display: flex;  /* Enable flexbox layout */
+    justify-content: center;
+    font-size: 70px;
+    color: #ffffff;
   }
   
   /* Style the button */
   button {
+    display: flex;  /* Enable flexbox layout */
+    justify-content: center;
     background-color: #12518d; /* Lighter blue */
     color: #fff; /* White text */
+    white-space: nowrap;
+    font-size: 60px;
     border: none;
-    padding: 10px 20px;
-    border-radius: 3px;
+    padding: 5px 100px;
+    border-radius: 20px;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out; /* Add a hover effect */
   }
   
   button:hover {
     background-color: #60a7e8; /* Slightly darker blue on hover */
-  }
-  
-  /* Style the link */
-  a {
-    color: #333; /* Darkest blue for links */
-    text-decoration: none; /* Remove underline */
-    transition: color 0.2s ease-in-out;
-  }
-  
-  a:hover {
-    color: #60a7e8; /* Lighter blue on hover */
   }
