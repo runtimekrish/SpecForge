@@ -18,7 +18,11 @@ body {
   }
 
   p {
-    font-size: 70px;
+    position: fixed;
+    bottom: 40px;
+    right: 110px;
+    font-size: 20px;
+    font-style: italic;
     color: #ffffff;
   }
   
