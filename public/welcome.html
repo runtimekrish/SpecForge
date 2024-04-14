@@ -1,22 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New Page</title>
-    <link rel="stylesheet" href="welcome.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpecForge</title>
+  <link rel="stylesheet" href="welcome.css">
 </head>
 <body>
-    <img src="https://github.com/runtimekrish/SpecForge/edit/main/img/logo.png" alt="SpecForge Logo" class="logo">
-    <div>
-        <p>Welcome!</p>
-        <button onclick="navigateToChatBot()">Build Your PC</button>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Specforge Logo">
     </div>
-
-    <script>
-        function navigateToChatBot() {
-            window.location.href = '/chat-bot.html'; // Redirect to the chat bot page
-        }
-    </script>
+    <nav>
+      <ul>
+        <li><a href="guides.html">Guides</a></li>
+        <li><a href="bottlenecker.html">Bottlenecker</a></li>
+        <li><a href="Completed Builds.html">Completed Builds</a></li>
+        <li><a href="browse-all.html">Browse All</a></li>  
+      </ul>
+    </nav>
+    <div class="search-bar">
+      <input type="text" placeholder="Search for parts">
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <h2>Pick Parts, Get Recommendations. Build Your PC.</h2>  <p>We provide part selection, Laptop Suggestions,pricing for do-it-yourself computer builders.</p>
+      <button onclick="navigateToChatBot()">Start Your Build</button>
+    </section>
+  </main>
+  <script>
+    function navigateToChatBot() {
+      window.location.href = '/chat-bot.html'; // Redirect to the chat bot page
+    }
+  </script>
+</body>
+<body>
+  <!-- Embedded Script for Chat Bot -->
+  <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+  <script src="https://mediafiles.botpress.cloud/26868559-3bce-4f99-a0c0-7b030eeaed2a/webchat/config.js" defer></script>
 </body>
 </html>

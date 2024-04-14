@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;  /* Set minimum height for viewport */
-    background-color: #1a2a43; /* Lightest blue */
+    background-color: #b3d7ff; /* Lightest blue */
   }
 
   .logo {

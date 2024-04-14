@@ -12,7 +12,7 @@ async function signin() {
         });
 
         if (response.ok) {
-            window.location.href = '/new-page.html'; // Redirect to a new page
+            window.location.href = '/welcome.html'; // Redirect to a new page
         } else {
             const data = await response.json();
             if (response.status === 401) {
@@ -52,6 +52,8 @@ async function signup() {
         alert('An error occurred. Please try again.');
     }
 }
+
+
 
 function toggleForms() {
     const signinForm = document.getElementById('signin-form');

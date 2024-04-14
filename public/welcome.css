@@ -1,42 +1,138 @@
+/* style.css */
+
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
 body {
-    font-family: sans-serif;  /* Choose a modern font family */
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;  /* Set minimum height for viewport */
-    background-color: #1a2a43; /* Lightest blue */
-  }
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
 
-  .logo {
-    position: absolute;
-    top: 50px;
-    left: 40%;
-    width: 20%;
-    height: 20%;
-  }
+/* Header styles */
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
 
-  p {
-    font-size: 70px;
-    color: #ffffff;
-  }
-  
-  /* Style the button */
-  button {
-    display: flex;  /* Enable flexbox layout */
-    justify-content: center;
-    background-color: #12518d; /* Lighter blue */
-    color: #fff; /* White text */
-    white-space: nowrap;
-    font-size: 60px;
-    border: none;
-    padding: 5px 100px;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: background-color 0.2s ease-in-out; /* Add a hover effect */
-  }
-  
-  button:hover {
-    background-color: #60a7e8; /* Slightly darker blue on hover */
-  }
+.logo img {
+  width: 80px;
+  height: auto;
+  margin-left: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.search-bar input[type="text"] {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+.user-account a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+/* Main styles */
+main {
+  padding: 20px;
+}
+
+.hero {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.featured-categories {
+  margin-top: 40px;
+}
+
+.category-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.category-item img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.category-item h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.category-item p {
+  font-size: 16px;
+}
+
+/* Why Choose Us section styles */
+.why-choose-us {
+  margin-top: 40px;
+}
+
+.why-choose-us h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.why-choose-us p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.why-choose-us ul {
+  list-style: none;
+}
+
+.why-choose-us ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}  
