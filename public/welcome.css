@@ -27,6 +27,11 @@ header {
   height: auto;
   margin-left: 20px;
 }
+.pclogo img{
+  width: auto;
+  height: auto;
+  margin-left: 250px
+}
 
 nav ul {
   list-style: none;

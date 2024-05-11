@@ -9,21 +9,13 @@ body {
     background-color: #b3d7ff; /* Lightest blue */
   }
 
-  .logo {
-    position: absolute;
-    top: 50px;
-    left: 40%;
-    width: 20%;
-    height: 20%;
-  }
-
   p {
     position: fixed;
     bottom: 40px;
     right: 110px;
     font-size: 20px;
     font-style: italic;
-    color: #ffffff;
+    color: #000000;
   }
   
   /* Style the button */
