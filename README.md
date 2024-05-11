@@ -1,6 +1,8 @@
 # SpecForge
 
-PC Part suggestions and recommendations inspired by PCPartpicker.com, additionally integrated with an AI chatbot 
+PC Part suggestions and recommendations inspired by PCPartpicker.com, additionally integrated with an AI chatbot.
+
+![Screenshot (58)](https://github.com/runtimekrish/SpecForge/assets/42571165/d19703c0-4f98-4435-aafb-f495ebc0769d)
 
 # Install modules
 Install Express, mongoose, bcrypyt modules 
