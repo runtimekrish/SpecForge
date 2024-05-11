@@ -1,10 +1,18 @@
 # SpecForge
 
+PC Part suggestions and recommendations inspired by PCPartpicker.com, additionally integrated with an AI chatbot 
+
+# Install modules
 Install Express, mongoose, bcrypyt modules 
 
     npm install express mongoose bcrypt jsonwebtoken body-parser
+# Mongodb
+    install mongodb in your system, also install the mogodb extention from vs code
 
-Mongodb setup on EC2
+# Run
+    node server.js
+
+# Mongodb setup on EC2
     
     sudo vi /etc/yum.repos.d/mongodb-org-7.0.repo
     
